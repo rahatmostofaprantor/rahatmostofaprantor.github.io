@@ -8,11 +8,6 @@
   "description": "Academic website of Rahat Mostofa Prantor.",
   "copyright_year": 2026,
   "footer_text": "Last updated:",
-  "attribution": {
-    "prefix": "Adapted from",
-    "source_label": "mraoaakash/academic-website-template",
-    "source_url": "https://github.com/mraoaakash/academic-website-template"
-  },
   "navigation": [
     { "label": "Home", "path": "index.html" },
     { "label": "Projects", "path": "pages/projects.html" },
@@ -35,9 +30,11 @@
     "Dhaka, Bangladesh"
   ],
   "social_links": [
-    { "label": "Dalhousie University", "url": "https://www.dal.ca", "image": "assets/images/dalhousie-logo.png", "image_class": "institution-logo", "image_alt": "Dalhousie University logo" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rahat-mostofa-prantor", "icon": "fa-brands fa-linkedin" },
-    { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/Rahat-Mostofa-Prantor", "icon": "fa-brands fa-researchgate" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=g_9b4zwAAAAJ", "icon": "fa-brands fa-google-scholar" },
+    { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/Rahat-Prantor", "icon": "fa-brands fa-researchgate" },
+    { "label": "ORCID", "url": "https://orcid.org/0009-0003-6209-6546", "icon": "fa-brands fa-orcid" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rahat-mostofa-prantor-26a28a1a1", "icon": "fa-brands fa-linkedin" },
     { "label": "GitHub", "url": "https://github.com/rahatmostofaprantor", "icon": "fa-brands fa-square-github" }
   ]
 }
+    
