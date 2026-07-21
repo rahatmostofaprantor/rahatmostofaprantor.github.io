@@ -22,12 +22,12 @@
     "news.html": { "title": "News", "description": "Latest news and updates from Rahat Mostofa Prantor." },
     "cv.html": { "title": "CV", "description": "Curriculum Vitae of Rahat Mostofa Prantor." }
   },
-  "profile_image": "assets/images/profile-placeholder.svg",
+  "profile_image": "assets/images/Profile.jpg",
   "profile_image_alt": "Rahat Mostofa Prantor profile photo",
-  "bio_html": "Rahat Mostofa Prantor is a Lecturer in the Department of Civil Engineering at the University of Information, Technology and Sciences (UITS) and an incoming Master of Applied Science student in Civil Engineering at Dalhousie University. His research interests include microplastics pollution, contaminant transport, and environmental and hydraulic modeling using tools like MIKE 11, ArcGIS, and Python. He holds a Bachelor of Science in Civil Engineering from the Islamic University of Technology (IUT).",
+  "bio_html": "Rahat Mostofa Prantor is an incoming Master of Applied Science student in Civil Engineering at Dalhousie University. His research interests include microplastics pollution, contaminant transport, and environmental and hydraulic modeling using tools like MIKE 11, ArcGIS, and Python. He holds a Bachelor of Science in Civil Engineering from the Islamic University of Technology (IUT).",
   "contact": [
     "uf565097 [at] dal [dot] ca",
-    "Dhaka, Bangladesh"
+    "Halifax, Nova Scotia, Canada"
   ],
   "social_links": [
     { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=g_9b4zwAAAAJ", "icon": "fa-brands fa-google-scholar" },
