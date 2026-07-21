@@ -18,7 +18,6 @@
     "index.html": { "title": "", "description": "Academic website of Rahat Mostofa Prantor." },
     "projects.html": { "title": "Projects", "description": "Research projects by Rahat Mostofa Prantor." },
     "publications.html": { "title": "Publications", "description": "Publications by Rahat Mostofa Prantor." },
-    "news.html": { "title": "News", "description": "Latest news and updates from Rahat Mostofa Prantor." },
     "cv.html": { "title": "CV", "description": "Curriculum Vitae of Rahat Mostofa Prantor." }
   },
   "profile_image": "assets/images/Profile.jpg",
