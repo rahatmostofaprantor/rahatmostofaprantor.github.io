@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Professional Experience",
+    "entries": [
+      {
+        "title": "Lecturer, Department of Civil Engineering",
+        "organization": "University of Information, Technology and Sciences, Bangladesh",
+        "dates": "MAR 2025 - JUL 2026",
+        "logo": "assets/images/uits-logo.png",
+        "logo_alt": "UITS logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Conducted Courses: Surveying, Water Supply Engineering, GIS and Remote Sensing Lab, Pollution Management, Environmental Engineering Lab."
+        ]
+      },
+      {
+        "title": "GIS Engineer (Part Time)",
+        "organization": "ANTS Drone Hub",
+        "dates": "JAN 2025 - JUL 2026",
+        "logo": "assets/images/ants-logo.png",
+        "logo_alt": "ANTS Drone Hub logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Collecting, monitoring and analyzing geospatial data.",
+          "Operating and maintaining drones."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research Experience",
+    "entries": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "Dalhousie Transportation Collaboratory (DalTRAC), Dalhousie University",
+        "dates": "SEP 2026 - Present",
+        "logo": "assets/images/dalhousie-logo.png",
+        "logo_alt": "Dalhousie University logo",
+        "flag": "CA",
+        "flag_alt": "Canada flag",
+        "bullets": [
+          "Working on emission and non-emission modelling of vehicles"
+        ]
+      },
+      {
+        "title": "Undergraduate Thesis",
+        "organization": "Islamic University of Technology, Bangladesh",
+        "dates": "JUN 2023 - JUN 2024",
+        "logo": "assets/images/iut-logo.png",
+        "logo_alt": "Islamic University of Technology logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Investigated the abundance and characteristics of microplastics (MPs) in landfill sites.",
+          "Used microscopy, FT-IR, and SEM-EDS for MPs identification and characterization."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "entries": [
+      {
+        "title": "Masters of Applied Science in Civil Engineering",
+        "organization": "Dalhousie University, Halifax, NS, Canada",
+        "dates": "SEP 2026 - Ongoing",
+        "logo": "assets/images/dalhousie-logo.png",
+        "logo_alt": "Dalhousie University logo",
+        "flag": "CA",
+        "flag_alt": "Canada flag",
+        "bullets": [
+          "Supervisor: Prof. Dr. Ahsan Habib"
+        ]
+      },
+      {
+        "title": "Bachelor of Science in Civil Engineering",
+        "organization": "Islamic University of Technology, Bangladesh",
+        "dates": "JAN 2020 - JULY 2024",
+        "logo": "assets/images/iut-logo.png",
+        "logo_alt": "Islamic University of Technology logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "CGPA: 3.74/4.00",
+          "Thesis: Assessment of Microplastics Pollution from Municipal Solid Waste Landfill Sites: A Comparative Study of Controlled and Open Landfills in Bangladesh",
+          "Supervisor: Prof. Dr. Md. Rezaul Karim"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Project Experience",
+    "entries": [
+      {
+        "title": "Research Project on Irrigation Water Management and Web-based Agricultural Information System in Bangladesh",
+        "organization": "Independent/Academic Project",
+        "dates": "JAN 2025 - MAR 2025",
+        "logo": "assets/images/gis-logo.png",
+        "logo_alt": "GIS project logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Conducted photogrammetry survey and analyzed geospatial data of 11 districts for agricultural land use mapping."
+        ]
+      },
+      {
+        "title": "Final Year Design Project (FYDP)",
+        "organization": "Islamic University of Technology, Bangladesh",
+        "dates": "NOV 2023 - MAR 2024",
+        "logo": "assets/images/iut-logo.png",
+        "logo_alt": "Islamic University of Technology logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Applied comprehensive applications of theoretical civil engineering knowledge for simulated practical problems of a residential area in an urban setting."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Leadership & Extracurricular Activities",
+    "entries": [
+      {
+        "title": "Faculty Moderator",
+        "organization": "UITS Civil Engineering Club- UCEC",
+        "dates": "2025 - Present",
+        "logo": "assets/images/ucec-logo.png",
+        "logo_alt": "UCEC logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Supervised the club members for their endeavors of the club"
+        ]
+      },
+      {
+        "title": "Vice-President",
+        "organization": "CENNOVATION 2024",
+        "dates": "2024",
+        "logo": "assets/images/cennovation-logo.png",
+        "logo_alt": "CENNOVATION logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Organized workshops and sessions, fostering collaboration among 100+ participants."
+        ]
+      },
+      {
+        "title": "Director (Senior)",
+        "organization": "ACI IUT Student Chapter",
+        "dates": "2023 - 2024",
+        "logo": "assets/images/aciiut-logo.png",
+        "logo_alt": "ACI IUT logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Oversaw operations, facilitated academic discussions, and mentored students."
+        ]
+      },
+      {
+        "title": "Operations Manager",
+        "organization": "Youth School for Social Entrepreneurs",
+        "dates": "2022 - 2023",
+        "logo": "assets/images/ysse-logo.png",
+        "logo_alt": "YSSE logo",
+        "flag": "BD",
+        "flag_alt": "Bangladesh flag",
+        "bullets": [
+          "Managed operations and supported community outreach projects."
+        ]
+      }
+    ]
+  }
+]

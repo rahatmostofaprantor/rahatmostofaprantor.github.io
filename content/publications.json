@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Assesing Microplastic Fate Through Textile Wastewater Treatment Plants: Stage-specific Retention and Removal Performance",
+    "authors": "Prantor, R.M., Islam, M.S., Absar, M.N., Rimi, N.A., Andaluri, G., et al.",
+    "venue": "Journal of Environmental Sciences",
+    "year": "2026",
+    "doi": "10.1016/j.jes.2026.03.002",
+    "link": "https://doi.org/10.1016/j.jes.2026.03.002",
+    "image": "assets/images/publications/pub1-jes.jpg",
+    "tags": ["journal"]
+  },
+  {
+    "title": "Microplastics Migration and Ecological Risk in Municipal Solid Waste Landfills: A Comparative Assessment of Controlled and Open Dumping Systems",
+    "authors": "Absar. M.N., Prantor, R.M., Karim, M.R., Islam, M.S., Hasan, R., et al.",
+    "venue": "Journal of Environmental Chemical Engineering",
+    "year": "2026",
+    "doi": "10.1016/j.jece.2026.121766",
+    "link": "https://doi.org/10.1016/j.jece.2026.121766",
+    "image": "assets/images/publications/pub2-jece.jpg",
+    "tags": ["journal"]
+  },
+  {
+    "title": "Breaking Down the Microplastic Threat in Bangladesh: A Holistic Review from Detection to Decision Making",
+    "authors": "Prantor, R.M., Absar. M.N., Karim, M.R., Islam, M.S., Hasan, R., Andaluri, G., et al.",
+    "venue": "Human and Ecological Risk Assessment: An International Journal",
+    "year": "2025",
+    "doi": "10.1080/10807039.2025.2566077",
+    "link": "https://doi.org/10.1080/10807039.2025.2566077",
+    "image": "assets/images/publications/pub3-hera.jpg",
+    "tags": ["journal"]
+  },
+  {
+    "title": "Assessment of Flood Susceptibility in Bangladesh: Integrating SPI into a GIS-AHP Decision Framework",
+    "authors": "Prantor, R.M., Mayukh, A.A., Rimi, N.A., et al.",
+    "venue": "International Conference on Civil Engineering Research & Innovations (ICCEI 2025), RUET, Rajshahi, Bangladesh",
+    "year": "2025",
+    "doi": "",
+    "link": "",
+    "image": "assets/images/publications/pub4-iccei.jpg",
+    "tags": ["conference"]
+  },
+  {
+    "title": "Study on Water Supply System and Associated Health Risks in Gazipur City Area",
+    "authors": "Niloy, H.F., Prantor, R.M., Jagoron, A.M., Shahriar, M.T., Karim, M, R.",
+    "venue": "7th International Conference on Advances in Civil Engineering (ICACE 2024), CUET, Chattogram, Bangladesh",
+    "year": "2024",
+    "doi": "9789819516292",
+    "link": "https://link.springer.com/book/9789819516292",
+    "image": "assets/images/publications/pub5-icace.jpg",
+    "tags": ["conference"]
+  }
+]

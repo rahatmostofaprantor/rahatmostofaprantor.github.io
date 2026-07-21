@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Assessment of Microplastics Pollution from Municipal Solid Waste Landfills",
+    "timeline": "JUN 2023 - JUN 2024",
+    "description": "Undergraduate thesis investigating the abundance and characteristics of microplastics (MPs) in landfill sites. Utilized microscopy, FT-IR, and SEM-EDS for MPs identification and characterization.",
+    "image": "assets/images/project-placeholder.svg",
+    "image_alt": "Microplastics research project"
+  },
+  {
+    "title": "Irrigation Water Management and Web-based Agricultural Information System",
+    "timeline": "JAN 2025 - MAR 2025",
+    "description": "Conducted photogrammetry surveys and analyzed geospatial data across 11 districts for agricultural land use mapping utilizing ArcGIS Pro and Google Earth Pro.",
+    "image": "assets/images/project-placeholder.svg",
+    "image_alt": "Agricultural Information System project"
+  },
+  {
+    "title": "Urban Area Civil Engineering Design Project",
+    "timeline": "NOV 2023 - MAR 2024",
+    "description": "Final Year Design Project (FYDP) involving comprehensive applications of theoretical civil engineering knowledge to solve simulated practical problems for a residential area in an urban setting.",
+    "image": "assets/images/project-placeholder.svg",
+    "image_alt": "Urban area design project"
+  },
+  {
+    "title": "Water-Supply and Drainage Risk Modeling",
+    "timeline": "Ongoing",
+    "description": "Developed concept-level EPANET and SWMM models for water-supply risk assessment, supporting option testing for various network and drainage scenarios.",
+    "image": "assets/images/project-placeholder.svg",
+    "image_alt": "Hydraulic modeling project"
+  }
+]
