@@ -12,7 +12,6 @@
     { "label": "Home", "path": "index.html" },
     { "label": "Projects", "path": "pages/projects.html" },
     { "label": "Publications", "path": "pages/publications.html" },
-    { "label": "News", "path": "pages/news.html" },
     { "label": "CV", "path": "pages/cv.html" }
   ],
   "pages": {
@@ -24,7 +23,7 @@
   },
   "profile_image": "assets/images/Profile.jpg",
   "profile_image_alt": "Rahat Mostofa Prantor profile photo",
-  "bio_html": "Rahat Mostofa Prantor is an incoming Master of Applied Science student in Civil Engineering at Dalhousie University. His research interests include microplastics pollution, contaminant transport, and environmental and hydraulic modeling using tools like MIKE 11, ArcGIS, and Python. He holds a Bachelor of Science in Civil Engineering from the Islamic University of Technology (IUT).",
+  "bio_html": "I am currently pursuing my MASc in the Department of Civil and Resources Engineering at Dalhousie University. My current research focuses on the correlation between traffic dynamics and vehicle-related runoff pollution, investigating how urban mobility directly influences surface water. Beyond my core research, my fundamental research lies in the fate, transport, and remediation of emerging contaminants, exploring the complex behavior of microplastics, PFAS, 6PPD-Q and other persistent pollutants. ",
   "contact": [
     "uf565097 [at] dal [dot] ca",
     "Halifax, Nova Scotia, Canada"
