@@ -21,24 +21,23 @@
     { "label": "CV", "path": "pages/cv.html" }
   ],
   "pages": {
-    "index.html": { "title": "", "description": "Academic website of Jane Doe." },
-    "projects.html": { "title": "Projects", "description": "Research projects by Jane Doe." },
-    "publications.html": { "title": "Publications", "description": "Publications by Jane Doe." },
-    "news.html": { "title": "News", "description": "Latest news and updates from Jane Doe." },
-    "cv.html": { "title": "CV", "description": "Curriculum Vitae of Jane Doe." }
+    "index.html": { "title": "", "description": "Academic website of Rahat Mostofa Prantor." },
+    "projects.html": { "title": "Projects", "description": "Research projects by Rahat Mostofa Prantor." },
+    "publications.html": { "title": "Publications", "description": "Publications by Rahat Mostofa Prantor." },
+    "news.html": { "title": "News", "description": "Latest news and updates from Rahat Mostofa Prantor." },
+    "cv.html": { "title": "CV", "description": "Curriculum Vitae of Rahat Mostofa Prantor." }
   },
   "profile_image": "assets/images/profile-placeholder.svg",
-  "profile_image_alt": "Jane Doe profile photo placeholder",
-  "bio_html": "Jane is a doctoral researcher in Example Department at Example University. Her research focuses on an interesting research area and its applications to real-world problems. Previously, Jane completed a master's degree in Example Subject and a bachelor's degree in Example Subject. Replace this paragraph with your own biography in <code>content/site.json</code>.",
+  "profile_image_alt": "Rahat Mostofa Prantor profile photo",
+  "bio_html": "Rahat Mostofa Prantor is a Lecturer in the Department of Civil Engineering at the University of Information, Technology and Sciences (UITS) and an incoming Master of Applied Science student in Civil Engineering at Dalhousie University. His research interests include microplastics pollution, contaminant transport, and environmental and hydraulic modeling using tools like MIKE 11, ArcGIS, and Python. He holds a Bachelor of Science in Civil Engineering from the Islamic University of Technology (IUT).",
   "contact": [
-    "jane [dot] doe [at] example [dot] edu",
-    "Example Department, Example University, City, Country"
+    "uf565097 [at] dal [dot] ca",
+    "Dhaka, Bangladesh"
   ],
   "social_links": [
-    { "label": "University profile", "url": "https://example.edu/your-profile", "image": "assets/images/institution-placeholder.svg", "image_class": "institution-logo", "image_alt": "Institution logo placeholder" },
-    { "label": "Google Scholar", "url": "https://scholar.google.com/", "icon": "fa-brands fa-google-scholar" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/", "icon": "fa-brands fa-linkedin" },
-    { "label": "GitHub", "url": "https://github.com/your-username", "icon": "fa-brands fa-square-github" },
-    { "label": "ORCID", "url": "https://orcid.org/", "icon": "fa-brands fa-orcid" }
+    { "label": "Dalhousie University", "url": "https://www.dal.ca", "image": "assets/images/dalhousie-logo.png", "image_class": "institution-logo", "image_alt": "Dalhousie University logo" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rahat-mostofa-prantor", "icon": "fa-brands fa-linkedin" },
+    { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/Rahat-Mostofa-Prantor", "icon": "fa-brands fa-researchgate" },
+    { "label": "GitHub", "url": "https://github.com/rahatmostofaprantor", "icon": "fa-brands fa-square-github" }
   ]
 }
