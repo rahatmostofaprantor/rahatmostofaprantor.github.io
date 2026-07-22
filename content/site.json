@@ -22,7 +22,17 @@
   },
   "profile_image": "assets/images/Profile.jpg",
   "profile_image_alt": "Rahat Mostofa Prantor profile photo",
-  "bio_html": "I am a MASc researcher in the Department of Civil and Resource Engineering at Dalhousie University, Canada. My research focuses on traffic-related runoff pollution, emerging contaminants, and sustainable water quality management. I am particularly interested in understanding the environmental fate, transport, and remediation of microplastics, PFAS, 6PPD-quinone, and other persistent pollutants through environmental monitoring, modelling, and advanced treatment technologies."
+  "hero_title": "Rahat Mostofa Prantor",
+
+"hero_subtitle": "MASc Student • Department of Civil and Resource Engineering • Dalhousie University",
+
+"hero_research": [
+  "Traffic-Related Water and Air Pollution",
+  "Emerging Contaminants",
+  "Wastewater Treatment",
+  "Environmental Modelling"
+],
+  "bio_html": "I am a MASc student in the Department of Civil and Resource Engineering at Dalhousie University, Canada. My research focuses on traffic-related runoff pollution, emerging contaminants, and sustainable water quality management. I am particularly interested in understanding the environmental fate, transport, and remediation of microplastics, PFAS, 6PPD-quinone, and other persistent pollutants through environmental monitoring, modelling, and advanced treatment technologies."
   "contact": [
     "uf565097 [at] dal [dot] ca",
     "Halifax, Nova Scotia, Canada"
