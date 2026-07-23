@@ -129,26 +129,9 @@ const setSiteContent = (site) => {
   });
   renderLastUpdated();
 
-  const heroTitle = document.getElementById("heroTitle");
-if (heroTitle) {
-  heroTitle.textContent = site.hero_title || site.name;
-}
-
-const heroSubtitle = document.getElementById("heroSubtitle");
-if (heroSubtitle) {
-  heroSubtitle.textContent = site.hero_subtitle || "";
-}
-
-const heroResearch = document.getElementById("heroResearch");
-if (heroResearch) {
-  heroResearch.innerHTML = "";
-
-  (site.hero_research || []).forEach((item) => {
-    const tag = document.createElement("span");
-    tag.className = "hero-tag";
-    tag.textContent = item;
-    heroResearch.appendChild(tag);
-  });
+  const aboutTitle = document.getElementById("aboutTitle");
+if (aboutTitle) {
+  aboutTitle.textContent = `About ${site.short_name || site.name}`;
 }
   const bio = document.getElementById("aboutBio");
   if (bio) bio.innerHTML = site.bio_html || "";
