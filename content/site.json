@@ -8,41 +8,80 @@
   "description": "Academic website of Rahat Mostofa Prantor.",
   "copyright_year": 2026,
   "footer_text": "Last updated:",
+
   "navigation": [
-    { "label": "Home", "path": "index.html" },
-    { "label": "Projects", "path": "pages/projects.html" },
-    { "label": "Publications", "path": "pages/publications.html" },
-    { "label": "CV", "path": "pages/cv.html" }
+    {
+      "label": "Home",
+      "path": "index.html"
+    },
+    {
+      "label": "Projects",
+      "path": "pages/projects.html"
+    },
+    {
+      "label": "Publications",
+      "path": "pages/publications.html"
+    },
+    {
+      "label": "CV",
+      "path": "pages/cv.html"
+    }
   ],
+
   "pages": {
-    "index.html": { "title": "", "description": "Academic website of Rahat Mostofa Prantor." },
-    "projects.html": { "title": "Projects", "description": "Research projects by Rahat Mostofa Prantor." },
-    "publications.html": { "title": "Publications", "description": "Publications by Rahat Mostofa Prantor." },
-    "cv.html": { "title": "CV", "description": "Curriculum Vitae of Rahat Mostofa Prantor." }
+    "index.html": {
+      "title": "",
+      "description": "Academic website of Rahat Mostofa Prantor."
+    },
+    "projects.html": {
+      "title": "Projects",
+      "description": "Research projects by Rahat Mostofa Prantor."
+    },
+    "publications.html": {
+      "title": "Publications",
+      "description": "Publications by Rahat Mostofa Prantor."
+    },
+    "cv.html": {
+      "title": "CV",
+      "description": "Curriculum Vitae of Rahat Mostofa Prantor."
+    }
   },
+
   "profile_image": "assets/images/Profile.jpg",
   "profile_image_alt": "Rahat Mostofa Prantor profile photo",
-  "hero_title": "Rahat Mostofa Prantor",
 
-"hero_subtitle": "MASc Student • Department of Civil and Resource Engineering • Dalhousie University",
+  "bio_html": "I am currently pursuing my MASc in the Department of Civil and Resource Engineering at Dalhousie University. My current research focuses on the correlation between traffic dynamics and vehicle-related runoff pollution, investigating how urban mobility directly influences surface water. Beyond my core research, my fundamental research lies in the fate, transport, and remediation of emerging contaminants, exploring the complex behavior of microplastics, PFAS, 6PPD-Q, and other persistent pollutants.",
 
-"hero_research": [
-  "Traffic-Related Water and Air Pollution",
-  "Emerging Contaminants",
-  "Wastewater Treatment",
-  "Environmental Modelling"
-],
-  "bio_html": "I am a MASc student in the Department of Civil and Resource Engineering at Dalhousie University, Canada. My research focuses on traffic-related runoff pollution, emerging contaminants, and sustainable water quality management. I am particularly interested in understanding the environmental fate, transport, and remediation of microplastics, PFAS, 6PPD-quinone, and other persistent pollutants through environmental monitoring, modelling, and advanced treatment technologies."
   "contact": [
     "uf565097 [at] dal [dot] ca",
     "Halifax, Nova Scotia, Canada"
   ],
+
   "social_links": [
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=g_9b4zwAAAAJ", "icon": "fa-brands fa-google-scholar" },
-    { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/Rahat-Prantor", "icon": "fa-brands fa-researchgate" },
-    { "label": "ORCID", "url": "https://orcid.org/0009-0003-6209-6546", "icon": "fa-brands fa-orcid" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rahat-mostofa-prantor-26a28a1a1", "icon": "fa-brands fa-linkedin" },
-    { "label": "GitHub", "url": "https://github.com/rahatmostofaprantor", "icon": "fa-brands fa-square-github" }
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=g_9b4zwAAAAJ",
+      "icon": "fa-brands fa-google-scholar"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Rahat-Prantor",
+      "icon": "fa-brands fa-researchgate"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0003-6209-6546",
+      "icon": "fa-brands fa-orcid"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rahat-mostofa-prantor-26a28a1a1",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rahatmostofaprantor",
+      "icon": "fa-brands fa-square-github"
+    }
   ]
 }
-    
