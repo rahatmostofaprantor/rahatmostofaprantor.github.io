@@ -1283,3 +1283,16 @@ pre {
   grid-template-columns: 96px 1fr;
 }
 }
+
+
+.quick-link-pill:visited {
+  color: #F5F3EC;
+}
+
+.quick-link-pill:hover {
+  color: #FFFFFF;
+}
+
+.social-link:visited {
+  color: inherit;
+}
