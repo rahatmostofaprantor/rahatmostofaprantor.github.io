@@ -1303,7 +1303,9 @@ pre {
   gap: 0.8rem;
 }
 
-.nav-button {
+/* Targeting 'a.nav-button' specifically to override default link and visited behaviors */
+a.nav-button,
+a.nav-button:visited {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1311,7 +1313,7 @@ pre {
   border-radius: 999px;
   text-decoration: none;
   background: var(--navy);
-  color: var(--button-text);
+  color: #FFFFFF !important; /* Enforces white font color strictly */
   font-weight: 600;
   font-family: var(--font-heading);
   font-size: 0.95rem;
@@ -1319,9 +1321,10 @@ pre {
   transition: transform 150ms ease, background-color 150ms ease;
 }
 
-.nav-button:hover {
+a.nav-button:hover,
+a.nav-button:active {
   background: var(--navy-2);
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   transform: translateY(-2px);
 }
 
@@ -1330,7 +1333,8 @@ pre {
     gap: 0.4rem;
   }
   
-  .nav-button {
+  a.nav-button,
+  a.nav-button:visited {
     padding: 0.4rem 0.7rem;
     font-size: 0.85rem;
   }
