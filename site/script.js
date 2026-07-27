@@ -40,6 +40,39 @@ const renderLastUpdated = () => {
 };
 
 const setSiteContent = (site) => {
+const siteNavTargets = document.querySelectorAll("[data-site-nav]");
+if (siteNavTargets.length) {
+  const navItems = (site.navigation || []).filter((item) => item.label !== "Home");
+  siteNavTargets.forEach((nav) => {
+    nav.innerHTML = "";
+    const container = document.createElement("div");
+    container.className = "container topbar-inner";
+
+    const siteName = document.createElement("a");
+    siteName.className = "site-name";
+    siteName.href = new URL("index.html", siteRootUrl).href;
+    siteName.textContent = site.name;
+    container.appendChild(siteName);
+
+    const actions = document.createElement("div");
+    actions.className = "topbar-actions";
+    const headerNav = document.createElement("nav");
+    headerNav.className = "header-nav";
+
+    navItems.forEach((item) => {
+      const link = document.createElement("a");
+      link.className = "nav-button";
+      link.href = new URL(item.path, siteRootUrl).href;
+      link.textContent = item.label;
+      headerNav.appendChild(link);
+    });
+
+    actions.appendChild(headerNav);
+    container.appendChild(actions);
+    nav.appendChild(container);
+  });
+}
+
   const pageName = window.location.pathname.split("/").pop() || "index.html";
   const pageConfig = site.pages?.[pageName];
   const pageTitle = pageConfig?.title;
