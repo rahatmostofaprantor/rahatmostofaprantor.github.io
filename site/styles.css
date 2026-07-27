@@ -4,54 +4,54 @@
   --bg:#FFFFFF;
   --panel:#FFFFFF;
 
---text:#1A1B1F;
+  --text:#1A1B1F;
   --muted:#585C66;
   --strong:#0B0B0C;
 
---ink:#0B0B0C;
+  --ink:#0B0B0C;
   --navy:#0F1B2C;
   --navy-2:#1B2D45;
 
---accent:#14243A;
+  --accent:#14243A;
   --accent-2:#0B1826;
 
---link:#16324F;
+  --link:#16324F;
   --link-hover:#0B2036;
   --link-visited:#233F5C;
 
---border:#E4E1D8;
+  --border:#E4E1D8;
 
---topbar-bg:rgba(255,255,255,.92);
+  --topbar-bg:rgba(255,255,255,.92);
 
---control-bg:#FFFFFF;
+  --control-bg:#FFFFFF;
   --control-border:#D8D4C8;
   --control-border-hover:#16324F;
 
---menu-hover:#F4F2EC;
+  --menu-hover:#F4F2EC;
 
---menu-shadow:rgba(0,0,0,.10);
+  --menu-shadow:rgba(0,0,0,.10);
 
---code-bg:#F3F2EE;
+  --code-bg:#F3F2EE;
   --code-text:#1A1B1F;
 
---tag-bg:rgba(255,255,255,.12);
+  --tag-bg:rgba(255,255,255,.12);
   --tag-text:#F5F3EC;
 
---tag-bg-light:rgba(15,27,44,.08);
+  --tag-bg-light:rgba(15,27,44,.08);
   --tag-text-light:#16324F;
 
---news-badge-bg:rgba(15,27,44,.07);
+  --news-badge-bg:rgba(15,27,44,.07);
   --news-badge-text:#16324F;
 
---button-text:#FFFFFF;
+  --button-text:#FFFFFF;
 
---focus-ring:rgba(22,50,79,.20);
+  --focus-ring:rgba(22,50,79,.20);
 
---background-image-opacity:.06;
+  --background-image-opacity:.06;
 
---site-background-image:none;
+  --site-background-image:none;
 
---font-heading:'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-heading:'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-body:'Lora', Georgia, serif;
 }
 
@@ -1284,7 +1284,6 @@ pre {
 }
 }
 
-
 .quick-link-pill:visited {
   color: #F5F3EC;
 }
@@ -1295,4 +1294,44 @@ pre {
 
 .social-link:visited {
   color: inherit;
+}
+
+/* --- NEW HEADER BUTTON STYLES --- */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.nav-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  background: var(--navy);
+  color: var(--button-text);
+  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(15,27,44,.12);
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.nav-button:hover {
+  background: var(--navy-2);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 720px) {
+  .header-nav {
+    gap: 0.4rem;
+  }
+  
+  .nav-button {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+  }
 }
