@@ -51,44 +51,6 @@ const setSiteContent = (site) => {
     description.content = pageConfig.description;
   }
 
-  document.querySelectorAll("[data-site-nav]").forEach((nav) => {
-    nav.innerHTML = "";
-    const container = document.createElement("div");
-    container.className = "container topbar-inner";
-    const home = document.createElement("a");
-    home.className = "site-name";
-    home.href = new URL("index.html", siteRootUrl).href;
-    home.textContent = site.name;
-    const actions = document.createElement("div");
-    actions.className = "topbar-actions";
-    const dropdown = document.createElement("div");
-    dropdown.className = "menu-dropdown";
-    const button = document.createElement("button");
-    button.className = "menu-button";
-    button.id = "menuToggle";
-    button.setAttribute("aria-label", "Toggle menu");
-    button.setAttribute("aria-haspopup", "true");
-    button.setAttribute("aria-expanded", "false");
-    button.setAttribute("aria-controls", "topMenu");
-    button.innerHTML = '<i class="fa-solid fa-bars" aria-hidden="true"></i><span>Menu</span>';
-    const list = document.createElement("ul");
-    list.className = "menu-list";
-    list.id = "topMenu";
-    list.hidden = true;
-    (site.navigation || []).forEach((item) => {
-      const listItem = document.createElement("li");
-      const link = document.createElement("a");
-      link.href = new URL(item.path, siteRootUrl).href;
-      link.textContent = item.label;
-      listItem.appendChild(link);
-      list.appendChild(listItem);
-    });
-    dropdown.append(button, list);
-    actions.appendChild(dropdown);
-    container.append(home, actions);
-    nav.appendChild(container);
-  });
-
   document.querySelectorAll("[data-site-footer]").forEach((footer) => {
     footer.innerHTML = "";
     const container = document.createElement("div");
@@ -130,9 +92,9 @@ const setSiteContent = (site) => {
   renderLastUpdated();
 
   const aboutTitle = document.getElementById("aboutTitle");
-if (aboutTitle) {
-  aboutTitle.textContent = `About ${site.short_name || site.name}`;
-}
+  if (aboutTitle) {
+    aboutTitle.textContent = `About ${site.short_name || site.name}`;
+  }
   const bio = document.getElementById("aboutBio");
   if (bio) bio.innerHTML = site.bio_html || "";
   const profileImage = document.getElementById("profileImage");
@@ -191,44 +153,3 @@ window.siteConfigPromise = fetch(new URL("content/site.json", siteRootUrl), { ca
     setSiteContent(site);
     return site;
   });
-
-const initializeMenu = () => {
-  const menuToggle = document.getElementById("menuToggle");
-  const topMenu = document.getElementById("topMenu");
-  if (!menuToggle || !topMenu) return;
-  const icon = menuToggle.querySelector("i");
-
-  const setMenuOpen = (isOpen) => {
-    menuToggle.setAttribute("aria-expanded", String(isOpen));
-    topMenu.hidden = !isOpen;
-
-    if (icon) {
-      icon.classList.toggle("fa-bars", !isOpen);
-      icon.classList.toggle("fa-bars-staggered", isOpen);
-    }
-  };
-
-  setMenuOpen(false);
-
-  menuToggle.addEventListener("click", (event) => {
-    event.stopPropagation();
-    const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
-    setMenuOpen(!isOpen);
-  });
-
-  document.addEventListener("click", (event) => {
-    const target = event.target;
-    if (!topMenu.hidden && target instanceof Node && !topMenu.contains(target) && !menuToggle.contains(target)) {
-      setMenuOpen(false);
-    }
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !topMenu.hidden) {
-      setMenuOpen(false);
-      menuToggle.focus();
-    }
-  });
-};
-
-window.siteConfigPromise.then(initializeMenu).catch(() => {});
