@@ -1,0 +1,105 @@
+/* ============================================================
+   Theme override — re-skins the original page design
+   to match the home page (Fraunces + Instrument Sans, teal)
+   Load this AFTER styles.css. No layout changes.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Instrument+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #faf9f6;
+  --panel: #ffffff;
+
+  --text: #16211f;
+  --muted: #5d6a67;
+  --strong: #16211f;
+
+  --ink: #0e6b63;
+  --navy: #0e6b63;
+  --navy-2: #0a4f49;
+
+  --accent: #0e6b63;
+  --accent-2: #0a4f49;
+
+  --link: #0e6b63;
+  --link-hover: #0a4f49;
+  --link-visited: #0e6b63;
+
+  --border: #e3e0d6;
+
+  --topbar-bg: rgba(250, 249, 246, 0.9);
+
+  --control-bg: #ffffff;
+  --control-border: #e3e0d6;
+  --control-border-hover: #0e6b63;
+
+  --menu-hover: #f1efe9;
+
+  --code-bg: #f1efe9;
+  --code-text: #16211f;
+
+  --tag-bg: rgba(255, 255, 255, 0.15);
+  --tag-text: #f5f6f4;
+
+  --tag-bg-light: rgba(14, 107, 99, 0.09);
+  --tag-text-light: #0a4f49;
+
+  --news-badge-bg: rgba(14, 107, 99, 0.09);
+  --news-badge-text: #0a4f49;
+
+  --button-text: #ffffff;
+
+  --focus-ring: rgba(14, 107, 99, 0.25);
+
+  --font-heading: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Instrument Sans', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Dark mode — follows the theme chosen on the home page */
+[data-theme="dark"] {
+  --bg: #0f1514;
+  --panel: #17201e;
+
+  --text: #ece9df;
+  --muted: #9aa6a2;
+  --strong: #ece9df;
+
+  --ink: #56b8ab;
+  --navy: #17201e;
+  --navy-2: #141b1a;
+
+  --accent: #56b8ab;
+  --accent-2: #7ccdc2;
+
+  --link: #56b8ab;
+  --link-hover: #7ccdc2;
+  --link-visited: #56b8ab;
+
+  --border: #263230;
+
+  --topbar-bg: rgba(15, 21, 20, 0.88);
+
+  --control-bg: #17201e;
+  --control-border: #263230;
+  --control-border-hover: #56b8ab;
+
+  --menu-hover: #141b1a;
+
+  --code-bg: #141b1a;
+  --code-text: #ece9df;
+
+  --tag-bg: rgba(86, 184, 171, 0.15);
+  --tag-text: #ece9df;
+
+  --tag-bg-light: rgba(86, 184, 171, 0.12);
+  --tag-text-light: #7ccdc2;
+
+  --news-badge-bg: rgba(86, 184, 171, 0.12);
+  --news-badge-text: #7ccdc2;
+
+  --button-text: #0f1514;
+
+  --menu-shadow: rgba(0, 0, 0, 0.4);
+
+  --focus-ring: rgba(86, 184, 171, 0.3);
+}
