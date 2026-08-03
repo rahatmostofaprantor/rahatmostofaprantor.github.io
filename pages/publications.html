@@ -7,8 +7,18 @@
   <meta name="description" content="Publications.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="../site/styles.css">
+  <link rel="stylesheet" href="../site/styles.css">
+  <link rel="stylesheet" href="../site/theme-fix.css">
 </head>
 <body class="publications-page">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
   <nav class="topbar" data-site-nav></nav>
 
     <header class="hero">
