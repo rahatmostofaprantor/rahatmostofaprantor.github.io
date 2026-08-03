@@ -15,10 +15,6 @@
       "path": "index.html"
     },
     {
-      "label": "Projects",
-      "path": "pages/projects.html"
-    },
-    {
       "label": "Publications",
       "path": "pages/publications.html"
     },
