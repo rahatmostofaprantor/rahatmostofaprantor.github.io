@@ -26,10 +26,9 @@
     <a class="brand" href="index.html">Rahat<span>.</span></a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
+      <li><a href="pages/publications.html">Publications</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="pages/projects.html">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-actions">
@@ -230,18 +229,6 @@
         </ul>
       </div>
     </article>
-
-    <article class="entry">
-      <div class="entry-dates">Jan 2025 – Mar 2025</div>
-      <div>
-        <img class="org-logo" src="assets/images/badc-logo.png" alt="BADC logo">
-        <h3>Research Project — Irrigation Water Management &amp; Agricultural Information System</h3>
-        <p class="org"><em>Bangladesh Agricultural Development Corporation</em></p>
-        <ul>
-          <li>Conducted photogrammetry surveys and analyzed geospatial data of 11 districts for agricultural land use mapping.</li>
-        </ul>
-      </div>
-    </article>
   </div>
 </section>
 
@@ -413,8 +400,7 @@
     <a class="brand" href="index.html">Rahat<span>.</span></a>
     <ul class="footer-nav">
       <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/publications.html">Publications</a></li>
       <li><a href="pages/cv.html">CV</a></li>
     </ul>
     <p class="copy">&copy; 2026 Rahat Mostofa Prantor. All rights reserved.</p>
@@ -423,7 +409,6 @@
 
 <script>
 (function () {
-  // Theme toggle with persistence
   var root = document.documentElement;
   var btn = document.getElementById("themeToggle");
   var icon = btn.querySelector("i");
@@ -444,7 +429,6 @@
     icon.className = t === "dark" ? "fa-solid fa-moon" : "fa-solid fa-sun";
   }
 
-  // Mobile menu
   var menuBtn = document.getElementById("menuBtn");
   var links = document.getElementById("navLinks");
   menuBtn.addEventListener("click", function () {
@@ -458,7 +442,6 @@
     }
   });
 
-  // Scroll reveal
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
