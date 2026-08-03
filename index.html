@@ -4,66 +4,472 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Personal website</title>
+<title>Rahat Mostofa Prantor — Civil &amp; Environmental Engineer</title>
+<meta name="description" content="Portfolio of Rahat Mostofa Prantor — MASc researcher at Dalhousie University studying traffic-related runoff pollution, microplastics, PFAS and emerging contaminants.">
 
-<meta name="description" content="Personal website.">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <!-- Styles -->
-<link rel="stylesheet" href="site/styles.css">
+<link rel="stylesheet" href="site/home.css">
 </head>
-<body class="home-page">
+<body class="home-v2">
 
-<!-- Updated Header Navigation -->
-<nav class="topbar">
-  <div class="container topbar-inner">
-    <a href="index.html" class="site-name">Rahat Mostofa Prantor</a>
-    <div class="topbar-actions">
-      <nav class="header-nav">
-        <a href="pages/publications.html" class="nav-button">Publications</a>
-        <a href="pages/projects.html" class="nav-button">Projects</a>
-        <a href="pages/cv.html" class="nav-button">CV</a>
-      </nav>
+<!-- ================= NAV ================= -->
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">Rahat<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-sun"></i></button>
+      <a class="nav-cv" href="pages/cv.html">&darr; CV</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
     </div>
   </div>
 </nav>
 
+<!-- ================= HERO ================= -->
 <header class="hero">
-<div class="container">
-<h1 id="aboutTitle">About</h1>
-</div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Rahat Mostofa Prantor</p>
+        <h1>Tracing Pollution from <em>Urban Roads</em> to Water</h1>
+        <span class="role-tag">Civil &amp; Environmental Engineer</span>
+        <p class="hero-bio">
+          MASc researcher in Civil Engineering at Dalhousie University, studying how traffic
+          dynamics drive vehicle-related runoff pollution in surface waters. My broader research
+          explores the fate, transport, and remediation of emerging contaminants — microplastics,
+          PFAS, 6PPD-Q, and other persistent pollutants.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="pages/cv.html"><i class="fa-solid fa-arrow-down"></i> View CV</a>
+          <a class="btn btn-ghost" href="pages/publications.html">Publications <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-social">
+          <a href="https://scholar.google.com/citations?user=g_9b4zwAAAAJ" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i></a>
+          <a href="https://www.researchgate.net/profile/Rahat-Prantor" aria-label="ResearchGate" target="_blank" rel="noopener"><i class="fa-brands fa-researchgate"></i></a>
+          <a href="https://orcid.org/0009-0003-6209-6546" aria-label="ORCID" target="_blank" rel="noopener"><i class="fa-brands fa-orcid"></i></a>
+          <a href="https://www.linkedin.com/in/rahat-mostofa-prantor-26a28a1a1" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/rahatmostofaprantor" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/images/Profile.jpg" alt="Rahat Mostofa Prantor">
+      </div>
+    </div>
+    <p class="scroll-hint">Scroll</p>
+  </div>
 </header>
 
 <main>
-<section class="intro-section">
-<div class="container hero-layout">
-<div class="hero-copy">
-<p class="subtitle" id="aboutBio"></p>
-<div class="about-contact" id="aboutContact"></div>
-</div>
-<img class="profile-pic" id="profileImage" src="assets/images/Profile.jpg" alt="Profile photo">
-</div>
-</section>
-</main>
 
-<section class="collab-band">
-  <div class="container">
-    <h2>Research Collaboration</h2>
-    <p>Looking for research collaborations in the emerging contaminants and resource recovery sectors.</p>
+<!-- ================= RESEARCH INTERESTS ================= -->
+<section class="section" id="research">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Academic Focus</p>
+    <h2 class="sec-title">Research Interests</h2>
+    <div class="chips">
+      <span class="chip">Microplastics</span>
+      <span class="chip">PFAS</span>
+      <span class="chip">6PPD-Quinone</span>
+      <span class="chip">Emerging Contaminants</span>
+      <span class="chip">Fate &amp; Transport</span>
+      <span class="chip">Vehicle-Related Runoff</span>
+      <span class="chip">Traffic Dynamics</span>
+      <span class="chip">Stormwater Quality</span>
+      <span class="chip">Water &amp; Wastewater Treatment</span>
+      <span class="chip">Environmental Risk Assessment</span>
+      <span class="chip">GIS &amp; Remote Sensing</span>
+      <span class="chip">UAV Photogrammetry</span>
+    </div>
   </div>
 </section>
 
-<section class="connect-band">
-<div class="container">
-<h2>Connect with <span data-site-field="name"></span></h2>
-<div class="social-links" id="socialLinks" aria-label="Social links"></div>
-</div>
+<!-- ================= RESEARCH EXPERIENCE ================= -->
+<section class="section alt">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Academic Work</p>
+    <h2 class="sec-title">Research Experience</h2>
+
+    <article class="entry">
+      <div class="entry-dates">Sep 2026 – Present</div>
+      <div>
+        <img class="org-logo" src="assets/images/dalhousie-logo.png" alt="Dalhousie University logo">
+        <h3>Graduate Research Assistant</h3>
+        <p class="org">Dalhousie Transportation Collaboratory (DalTRAC), <em>Dalhousie University</em></p>
+        <p class="sup">Supervisor: Prof. Dr. Ahsan Habib</p>
+        <ul>
+          <li>Working on emission and non-emission modelling of vehicles, linking traffic dynamics to vehicle-related runoff pollution in urban surface waters.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="entry-dates">Jun 2023 – Jun 2024</div>
+      <div>
+        <img class="org-logo" src="assets/images/iut-logo.png" alt="Islamic University of Technology logo">
+        <h3>Undergraduate Research Assistant</h3>
+        <p class="org">Environmental Engineering Lab, <em>Islamic University of Technology</em></p>
+        <p class="sup">Supervisor: Prof. Dr. Md. Rezaul Karim</p>
+        <ul>
+          <li>Designed and conducted field sampling campaigns to investigate microplastic contamination in controlled and open municipal solid waste landfill systems.</li>
+          <li>Characterized microplastics using stereomicroscopy, FT-IR, and SEM-EDS to determine particle morphology and polymer composition.</li>
+          <li>Performed statistical analyses using Python and R to assess microplastic abundance, migration pathways, and ecological risks.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
 </section>
 
-<footer class="site-footer" data-site-footer></footer>
+<!-- ================= PUBLICATIONS ================= -->
+<section class="section" id="publications">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Scholarly Output</p>
+    <h2 class="sec-title">Selected Publications</h2>
 
-<script src="site/script.js"></script>
+    <article class="pub">
+      <div class="pub-num">01</div>
+      <div>
+        <div class="pub-meta"><span class="badge">Journal</span><span class="badge neutral">2026</span></div>
+        <h3>Assessing Microplastic Fate Through Textile Wastewater Treatment Plants: Stage-specific Retention and Removal Performance</h3>
+        <p class="authors"><strong>Prantor, R.M.</strong>, Islam, M.S., Absar, M.N., Rimi, N.A., Andaluri, G., et al.</p>
+        <p class="venue">Journal of Environmental Sciences</p>
+        <a class="pub-link" href="https://doi.org/10.1016/j.jes.2026.03.002" target="_blank" rel="noopener">View Paper &rarr;</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-num">02</div>
+      <div>
+        <div class="pub-meta"><span class="badge">Journal</span><span class="badge neutral">2026</span></div>
+        <h3>Microplastics Migration and Ecological Risk in Municipal Solid Waste Landfills: A Comparative Assessment of Controlled and Open Dumping Systems</h3>
+        <p class="authors">Absar, M.N., <strong>Prantor, R.M.</strong>, Karim, M.R., Islam, M.S., Hasan, R., et al.</p>
+        <p class="venue">Journal of Environmental Chemical Engineering</p>
+        <a class="pub-link" href="https://doi.org/10.1016/j.jece.2026.121766" target="_blank" rel="noopener">View Paper &rarr;</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-num">03</div>
+      <div>
+        <div class="pub-meta"><span class="badge">Journal</span><span class="badge neutral">2025</span></div>
+        <h3>From Pollution to Policy: A Holistic Review of Microplastics in The Environment of Bangladesh</h3>
+        <p class="authors"><strong>Prantor, R.M.</strong>, Absar, M.N., Karim, M.R., Islam, M.S., Hasan, R., Andaluri, G., et al.</p>
+        <p class="venue">Human and Ecological Risk Assessment: An International Journal</p>
+        <a class="pub-link" href="https://doi.org/10.1080/10807039.2025.2566077" target="_blank" rel="noopener">View Paper &rarr;</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-num">04</div>
+      <div>
+        <div class="pub-meta"><span class="badge">Conference</span><span class="badge neutral">2025</span></div>
+        <h3>Assessment of Flood Susceptibility in Bangladesh: Integrating SPI into a GIS-AHP Decision Framework</h3>
+        <p class="authors"><strong>Prantor, R.M.</strong>, Mayukh, A.A., Rimi, N.A., et al.</p>
+        <p class="venue">International Conference on Civil Engineering Research &amp; Innovations (ICCEI 2025), RUET, Rajshahi, Bangladesh</p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-num">05</div>
+      <div>
+        <div class="pub-meta"><span class="badge">Conference</span><span class="badge neutral">2024</span></div>
+        <h3>Study on Water Supply System and Associated Health Risks in Gazipur City Area</h3>
+        <p class="authors">Niloy, H.F., <strong>Prantor, R.M.</strong>, Jagoron, A.M., Shahriar, M.T., Karim, M.R.</p>
+        <p class="venue">7th International Conference on Advances in Civil Engineering (ICACE 2024), CUET, Chattogram — Springer Book Series</p>
+        <a class="pub-link" href="https://link.springer.com/book/9789819516292" target="_blank" rel="noopener">View Paper &rarr;</a>
+      </div>
+    </article>
+
+    <p class="sec-more"><a href="pages/publications.html">View all publications &rarr;</a></p>
+  </div>
+</section>
+
+<!-- ================= PROFESSIONAL EXPERIENCE ================= -->
+<section class="section alt" id="experience">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Industry &amp; Teaching</p>
+    <h2 class="sec-title">Professional Experience</h2>
+
+    <article class="entry">
+      <div class="entry-dates">Mar 2025 – Aug 2026</div>
+      <div>
+        <img class="org-logo" src="assets/images/uits-logo.png" alt="UITS logo">
+        <h3>Lecturer, Department of Civil Engineering</h3>
+        <p class="org"><em>University of Information Technology and Sciences</em> — Dhaka, Bangladesh</p>
+        <ul>
+          <li>Conducted courses in Surveying, Water Supply Engineering, GIS &amp; Remote Sensing Lab, Pollution Management, and Environmental Engineering Sessional.</li>
+          <li>Served as Member Secretary of the Departmental Academic Council, coordinating meetings and facilitating academic decision-making.</li>
+          <li>Evaluated student comprehension through continuous assessments, detailed lab reporting, and viva demonstrations.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="entry-dates">Jan 2025 – Aug 2026</div>
+      <div>
+        <img class="org-logo" src="assets/images/ants-logo.jpg" alt="ANTS Drone Hub logo">
+        <h3>GIS Engineer (Part-Time)</h3>
+        <p class="org"><em>ANTS Drone Hub</em> — Dhaka, Bangladesh</p>
+        <ul>
+          <li>Processed and analyzed UAV imagery to generate orthomosaics, DSMs, DTMs, and geospatial datasets.</li>
+          <li>Operated and maintained UAVs for aerial surveying, mapping, and data acquisition.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="entry-dates">Jan 2025 – Mar 2025</div>
+      <div>
+        <img class="org-logo" src="assets/images/badc-logo.png" alt="BADC logo">
+        <h3>Research Project — Irrigation Water Management &amp; Agricultural Information System</h3>
+        <p class="org"><em>Bangladesh Agricultural Development Corporation</em></p>
+        <ul>
+          <li>Conducted photogrammetry surveys and analyzed geospatial data of 11 districts for agricultural land use mapping.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section class="section" id="education">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Academic Background</p>
+    <h2 class="sec-title">Education</h2>
+
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-head">
+          <h3>Master of Applied Science, Civil Engineering</h3>
+          <span class="edu-dates">Sep 2026 – Present</span>
+        </div>
+        <p class="org">Dalhousie University — Halifax, NS, Canada</p>
+        <div class="edu-facts">
+          <span class="fact">DalTRAC</span>
+          <span class="fact">Transportation &amp; Environment</span>
+        </div>
+        <p class="thesis"><strong>Supervisor:</strong> Prof. Dr. Ahsan Habib</p>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-head">
+          <h3>Bachelor of Science, Civil Engineering</h3>
+          <span class="edu-dates">Jan 2020 – Jul 2024</span>
+        </div>
+        <p class="org">Islamic University of Technology (IUT) — Gazipur, Bangladesh</p>
+        <div class="edu-facts">
+          <span class="fact">CGPA 3.74 / 4.00</span>
+          <span class="fact">Environmental Specialization</span>
+        </div>
+        <p class="thesis"><strong>Thesis:</strong> Assessment of Microplastics Pollution from Municipal Solid Waste Landfill Sites: A Comparative Study of Controlled and Open Landfills in Bangladesh — Supervisor: Prof. Dr. Md. Rezaul Karim</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section alt">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Proficiency</p>
+    <h2 class="sec-title">Skills &amp; Tools</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Modeling &amp; Programming</h3>
+        <div class="chips">
+          <span class="chip">Python</span><span class="chip">R</span><span class="chip">EPANET</span>
+          <span class="chip">SWMM</span><span class="chip">BIOSCREEN</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+        <h3>Software &amp; GIS</h3>
+        <div class="chips">
+          <span class="chip">ArcGIS Pro</span><span class="chip">QGIS</span><span class="chip">Google Earth Engine</span>
+          <span class="chip">Pix4D Mapper</span><span class="chip">Origin</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="icon"><i class="fa-solid fa-flask"></i></div>
+        <h3>Lab Techniques</h3>
+        <div class="chips">
+          <span class="chip">LC-MS</span><span class="chip">FT-IR</span><span class="chip">SEM-EDS</span>
+          <span class="chip">Microscopy</span><span class="chip">HACH Spectrophotometry</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Professional Development</p>
+    <h2 class="sec-title">Certifications &amp; Training</h2>
+
+    <div class="cert-grid">
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>Environmental and Social Framework (ESF)</h3><p>World Bank</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>Managing Environmental and Social Performance</h3><p>World Bank</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>Energy Economics, Environment, and Policy</h3><p>Asian Development Bank</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>Climate Change and Sovereign Risk</h3><p>Asian Development Bank</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>Disaster Risk Management</h3><p>World Bank</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>Project Management</h3><p>Management and Strategy Institute</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>GIS for Civil Engineering Applications</h3><p>SuperMap</p></div></div>
+      <div class="cert"><div class="icon"><i class="fa-solid fa-medal"></i></div><div><h3>ISO 14001:2015 EMS Awareness</h3><p>Environmental Management System</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEADERSHIP ================= -->
+<section class="section alt">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Community Impact</p>
+    <h2 class="sec-title">Leadership &amp; Activities</h2>
+
+    <div class="lead-grid">
+      <div class="lead-card">
+        <p class="dates">2025 – 2026</p>
+        <h3>Member Secretary</h3>
+        <p class="org">Program Self-Assessment Committee, Dept. of Civil Engineering, UITS</p>
+        <p>Managed documentation and coordinated quality assurance processes supporting program self-assessment and accreditation.</p>
+      </div>
+      <div class="lead-card">
+        <p class="dates">2025 – 2026</p>
+        <h3>Faculty Moderator</h3>
+        <p class="org">UITS Civil Engineering Club (UCEC)</p>
+        <p>Supervised and mentored club members across the club's academic and outreach endeavors.</p>
+      </div>
+      <div class="lead-card">
+        <p class="dates">2024</p>
+        <h3>Vice-President</h3>
+        <p class="org">CENNOVATION 2024 — Largest Civil Engineering Festival in Bangladesh</p>
+        <p>Organized workshops and sessions, fostering collaboration among 100+ participants.</p>
+      </div>
+      <div class="lead-card">
+        <p class="dates">2023 – 2024</p>
+        <h3>Director (Senior)</h3>
+        <p class="org">ACI IUT Student Chapter</p>
+        <p>Oversaw operations, facilitated academic discussions, and mentored students.</p>
+      </div>
+      <div class="lead-card">
+        <p class="dates">2022 – 2023</p>
+        <h3>Operations Manager</h3>
+        <p class="org">Youth School for Social Entrepreneurs</p>
+        <p>Managed operations and supported community outreach projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="wrap reveal">
+    <p class="sec-eyebrow">Get In Touch</p>
+    <h2 class="sec-title">Contact</h2>
+
+    <div class="contact-grid">
+      <div>
+        <p class="contact-lede">Open to research collaborations, graduate research opportunities, and conversations about emerging contaminants, transportation, and water quality.</p>
+        <div class="contact-row">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <div><p class="label">Email</p><p class="value"><a href="mailto:uf565097@dal.ca">uf565097@dal.ca</a></p></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><p class="label">Location</p><p class="value">Halifax, Nova Scotia, Canada</p></div>
+        </div>
+      </div>
+      <div class="contact-links">
+        <a href="https://scholar.google.com/citations?user=g_9b4zwAAAAJ" target="_blank" rel="noopener">Google Scholar <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="https://www.researchgate.net/profile/Rahat-Prantor" target="_blank" rel="noopener">ResearchGate <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="https://orcid.org/0009-0003-6209-6546" target="_blank" rel="noopener">ORCID <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="https://www.linkedin.com/in/rahat-mostofa-prantor-26a28a1a1" target="_blank" rel="noopener">LinkedIn <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="pages/cv.html">&darr; View Full CV <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <a class="brand" href="index.html">Rahat<span>.</span></a>
+    <ul class="footer-nav">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/cv.html">CV</a></li>
+    </ul>
+    <p class="copy">&copy; 2026 Rahat Mostofa Prantor. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  // Theme toggle with persistence
+  var root = document.documentElement;
+  var btn = document.getElementById("themeToggle");
+  var icon = btn.querySelector("i");
+  var stored = null;
+  try { stored = localStorage.getItem("theme"); } catch (e) {}
+  var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  var theme = stored || (prefersDark ? "dark" : "light");
+  apply(theme);
+
+  btn.addEventListener("click", function () {
+    theme = theme === "dark" ? "light" : "dark";
+    apply(theme);
+    try { localStorage.setItem("theme", theme); } catch (e) {}
+  });
+
+  function apply(t) {
+    root.setAttribute("data-theme", t);
+    icon.className = t === "dark" ? "fa-solid fa-moon" : "fa-solid fa-sun";
+  }
+
+  // Mobile menu
+  var menuBtn = document.getElementById("menuBtn");
+  var links = document.getElementById("navLinks");
+  menuBtn.addEventListener("click", function () {
+    var open = links.classList.toggle("open");
+    menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  links.addEventListener("click", function (e) {
+    if (e.target.tagName === "A") {
+      links.classList.remove("open");
+      menuBtn.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  // Scroll reveal
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); });
+  }
+})();
+</script>
 </body>
 </html>
