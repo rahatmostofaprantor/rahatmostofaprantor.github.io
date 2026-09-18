@@ -3,6 +3,32 @@
     "title": "Professional Experience",
     "entries": [
       {
+        "title": "Graduate Teaching Assistant",
+        "organization": "Department of Civil and Resource Engineering, Dalhousie University",
+        "dates": "SEP 2026 - Present",
+        "logo": "assets/images/dalhousie-logo.png",
+        "logo_alt": "Dalhousie University logo",
+        "flag": "CA",
+        "flag_alt": "Canada flag",
+        "bullets": [
+          "Supporting course delivery through tutorials, laboratory sessions, and student consultations.",
+          "Assisting with assignment and laboratory report assessment, and providing feedback to students."
+        ]
+      },
+      {
+        "title": "Proctor",
+        "organization": "Mark A. Hill Accessibility Centre, Dalhousie University",
+        "dates": "SEP 2026 - Present",
+        "logo": "assets/images/dalhousie-logo.png",
+        "logo_alt": "Dalhousie University logo",
+        "flag": "CA",
+        "flag_alt": "Canada flag",
+        "bullets": [
+          "Invigilating accommodated examinations and ensuring accessibility requirements are met.",
+          "Maintaining exam integrity, confidentiality, and a supportive testing environment for students."
+        ]
+      },
+      {
         "title": "Lecturer, Department of Civil Engineering",
         "organization": "University of Information, Technology and Sciences, Bangladesh",
         "dates": "MAR 2025 - JUL 2026",
